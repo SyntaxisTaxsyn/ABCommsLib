@@ -1,0 +1,120 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ABComms/1.0.0": {
+        "dependencies": {
+          "libplctag": "1.0.13"
+        },
+        "runtime": {
+          "ABComms.dll": {}
+        }
+      },
+      "libplctag/1.0.13": {
+        "dependencies": {
+          "libplctag.NativeImport": "1.0.17"
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.dll": {
+            "assemblyVersion": "1.0.13.0",
+            "fileVersion": "1.0.13.0"
+          }
+        }
+      },
+      "libplctag.NativeImport/1.0.17": {
+        "dependencies": {
+          "System.Net.Primitives": "4.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/libplctag.NativeImport.dll": {
+            "assemblyVersion": "1.0.17.0",
+            "fileVersion": "1.0.17.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.1": {},
+      "Microsoft.NETCore.Targets/1.1.3": {},
+      "System.Net.Primitives/4.3.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.1",
+          "Microsoft.NETCore.Targets": "1.1.3",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Handles": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.1",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        }
+      },
+      "System.Runtime.Handles/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.1",
+          "Microsoft.NETCore.Targets": "1.1.3",
+          "System.Runtime": "4.3.1"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ABComms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libplctag/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hd+NkMhiYcDBgVxeQ9EilwH653LBVz0DGFU23dFE7ZqrhmPhc3AIcMU8Mm8AC2tFCL6hGHVqd9WOgnKoPrAYGg==",
+      "path": "libplctag/1.0.13",
+      "hashPath": "libplctag.1.0.13.nupkg.sha512"
+    },
+    "libplctag.NativeImport/1.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qoJ0kwxjLtF1jQ5yPCnFM4y9Thd5QvQRVBzkCyPv1Uip1fjxw4vlF/j/sJiuuwJMeVSickQcGMvFizsIo4j8Zw==",
+      "path": "libplctag.nativeimport/1.0.17",
+      "hashPath": "libplctag.nativeimport.1.0.17.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
+      "path": "microsoft.netcore.platforms/1.1.1",
+      "hashPath": "microsoft.netcore.platforms.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
+      "path": "microsoft.netcore.targets/1.1.3",
+      "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
+    },
+    "System.Net.Primitives/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OHzPhSme78BbmLe9UBxHM69ZYjClS5URuhce6Ta4ikiLgaUGiG/X84fZpI6zy7CsUH5R9cYzI2tv9dWPqdTkUg==",
+      "path": "system.net.primitives/4.3.1",
+      "hashPath": "system.net.primitives.4.3.1.nupkg.sha512"
+    },
+    "System.Runtime/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
+      "path": "system.runtime/4.3.1",
+      "hashPath": "system.runtime.4.3.1.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OKiSUN7DmTWeYb3l51A7EYaeNMnvxwE249YtZz7yooT4gOZhmTjIn48KgSsw2k2lYdLgTKNJw/ZIfSElwDRVgg==",
+      "path": "system.runtime.handles/4.3.0",
+      "hashPath": "system.runtime.handles.4.3.0.nupkg.sha512"
+    }
+  }
+}

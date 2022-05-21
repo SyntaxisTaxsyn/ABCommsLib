@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "o91L1yK2/9sgd8T7MtKzRlPXQ3x05M+rzwo7T+KbfomWIgVvy3WCqToZqnBVU17TJ/XoZh7K8BgcX+c0SI1bIQ==",
+  "success": true,
+  "projectFilePath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\speirsp\\.nuget\\packages\\libplctag\\1.0.13\\libplctag.1.0.13.nupkg.sha512",
+    "C:\\Users\\speirsp\\.nuget\\packages\\libplctag.nativeimport\\1.0.17\\libplctag.nativeimport.1.0.17.nupkg.sha512",
+    "C:\\Users\\speirsp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\speirsp\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\speirsp\\.nuget\\packages\\system.net.primitives\\4.3.1\\system.net.primitives.4.3.1.nupkg.sha512",
+    "C:\\Users\\speirsp\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\speirsp\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

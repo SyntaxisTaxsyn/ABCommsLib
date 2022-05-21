@@ -1,0 +1,12 @@
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.csproj.AssemblyReference.cache
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.AssemblyInfoInputs.cache
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.AssemblyInfo.cs
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.csproj.CoreCompileInputs.cache
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\bin\Debug\net6.0\ABComms.deps.json
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\bin\Debug\net6.0\ABComms.dll
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\bin\Debug\net6.0\ref\ABComms.dll
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\bin\Debug\net6.0\ABComms.pdb
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.dll
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ref\ABComms.dll
+D:\Users\speirsp\Documents\CSharp\Libraries\ABCommsLib\ABComms\obj\Debug\net6.0\ABComms.pdb
