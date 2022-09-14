@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o91L1yK2/9sgd8T7MtKzRlPXQ3x05M+rzwo7T+KbfomWIgVvy3WCqToZqnBVU17TJ/XoZh7K8BgcX+c0SI1bIQ==",
+  "dgSpecHash": "bYvS40Rcai6PtTovMTThp8e5N0ZkyjxynkTuK3xqJrmouNX0jVqgY+L1pF6+Dq+pQ0q6pdqzJKTHcEAeDhzuGw==",
   "success": true,
-  "projectFilePath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj",
+  "projectFilePath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\speirsp\\.nuget\\packages\\libplctag\\1.0.13\\libplctag.1.0.13.nupkg.sha512",
     "C:\\Users\\speirsp\\.nuget\\packages\\libplctag.nativeimport\\1.0.17\\libplctag.nativeimport.1.0.17.nupkg.sha512",

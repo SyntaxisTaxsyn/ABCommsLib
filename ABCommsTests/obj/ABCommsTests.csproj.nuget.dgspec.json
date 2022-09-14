@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj": {}
+    "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj": {}
   },
   "projects": {
-    "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj": {
+    "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj",
+        "projectUniqueName": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj",
         "projectName": "ABCommsTests",
-        "projectPath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj",
+        "projectPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj",
         "packagesPath": "C:\\Users\\speirsp\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABCommsTests\\obj\\",
+        "outputPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABCommsTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\speirsp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj": {
-                "projectPath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj"
+              "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj": {
+                "projectPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj": {
+    "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj",
+        "projectUniqueName": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj",
         "projectName": "ABComms",
-        "projectPath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj",
+        "projectPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj",
         "packagesPath": "C:\\Users\\speirsp\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\obj\\",
+        "outputPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\speirsp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -359,11 +359,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj",
+      "projectUniqueName": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj",
       "projectName": "ABComms",
-      "projectPath": "D:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\ABComms.csproj",
+      "projectPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\ABComms.csproj",
       "packagesPath": "C:\\Users\\speirsp\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABComms\\obj\\",
+      "outputPath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABComms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\speirsp\\AppData\\Roaming\\NuGet\\NuGet.Config",

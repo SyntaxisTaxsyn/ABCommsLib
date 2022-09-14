@@ -7,8 +7,8 @@ using System.Text;
 using System.Timers;
 using System.Net.NetworkInformation;
 
-namespace ABComms
-{
+namespace ABComms;
+
     public class PLC : IDisposable
     {
         public ParentPLCData Data;
@@ -268,7 +268,7 @@ namespace ABComms
             _active = false;
             _type = type;
             TagName = tag;
-
+            
         }
 
         public object GetValue()
@@ -316,74 +316,56 @@ namespace ABComms
 
         public object Read()
         {
-            try
+            switch (_type)
             {
-                switch (_type)
-                {
-                    case TAGType.Bool:
-                        _boolTag.Read();
-                        break;
-                    case TAGType.Int:
-                        _intTag.Read();
-                        break;
-                    case TAGType.Dint:
-                        _dintTag.Read();
-                        break;
-                    case TAGType.Real:
-                        _realTag.Read();
-                        break;
-                    case TAGType.String:
-                        _stringTag.Read();
-                        break;
-                    default:
-                        break;
-                }
-                return GetValue();
+                case TAGType.Bool:
+                    _boolTag.Read();
+                    break;
+                case TAGType.Int:
+                    _intTag.Read();
+                    break;
+                case TAGType.Dint:
+                    _dintTag.Read();
+                    break;
+                case TAGType.Real:
+                    _realTag.Read();
+                    break;
+                case TAGType.String:
+                    _stringTag.Read();
+                    break;
+                default:
+                    break;
             }
-            catch (Exception)
-            {
-                return 0;
-                throw;
-            }
-            
+            return GetValue();
         }
 
         public void Write(object value)
         {
-            try
+            switch (_type)
             {
-                switch (_type)
-                {
-                    case TAGType.Bool:
-                        SetValue(value);
-                        _boolTag.Write();
-                        break;
-                    case TAGType.Int:
-                        SetValue(value);
-                        _intTag.Write();
-                        break;
-                    case TAGType.Dint:
-                        SetValue(value);
-                        _dintTag.Write();
-                        break;
-                    case TAGType.Real:
-                        SetValue(value);
-                        _realTag.Write();
-                        break;
-                    case TAGType.String:
-                        SetValue(value);
-                        _stringTag.Write();
-                        break;
-                    default:
-                        break;
-                }
+                case TAGType.Bool:
+                    SetValue(value);
+                    _boolTag.Write();
+                    break;
+                case TAGType.Int:
+                    SetValue(value);
+                    _intTag.Write();
+                    break;
+                case TAGType.Dint:
+                    SetValue(value);
+                    _dintTag.Write();
+                    break;
+                case TAGType.Real:
+                    SetValue(value);
+                    _realTag.Write();
+                    break;
+                case TAGType.String:
+                    SetValue(value);
+                    _stringTag.Write();
+                    break;
+                default:
+                    break;
             }
-            catch (Exception)
-            {
-
-                throw;
-            }
-            
         }
 
 
@@ -396,11 +378,10 @@ namespace ABComms
             }
             if (enable)
             {
-             
                 UpdateCycle.Enabled = true;
                 UpdateCycle.Interval = UpdateTime_ms;
-                UpdateCycle.Start();
                 UpdateCycle.Elapsed += UpdateTimer_Tick;
+                UpdateCycle.Start();
             }
             else
             {
@@ -492,4 +473,3 @@ namespace ABComms
 
         void IPlcMapper<bool>.Encode(Tag tag, bool value) => tag.SetUInt8(0, value == true ? (byte)1 : (byte)0);
     }
-}

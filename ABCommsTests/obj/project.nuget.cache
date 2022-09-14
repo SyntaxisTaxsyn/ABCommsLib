@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QS6BAlYnoiiAcEiba5n0wqkcbLII1+ZaSIhDnTALv00q9CNr8DQ1KnbCSMtZapoiIPv2sOceaZZKnT9D4IvtvQ==",
+  "dgSpecHash": "lmn+i8yAmA0PLoT1cFmNVZS6nt8AX7CsovLNcgw0prUJdW5/dRXAPLSSgNdOPgO5lqRXuIQhrdvbPSfkIIedXw==",
   "success": true,
-  "projectFilePath": "d:\\Users\\speirsp\\Documents\\CSharp\\Libraries\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj",
+  "projectFilePath": "C:\\Users\\speirsp\\Source\\Repos\\ABCommsLib\\ABCommsTests\\ABCommsTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\speirsp\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\speirsp\\.nuget\\packages\\libplctag\\1.0.13\\libplctag.1.0.13.nupkg.sha512",
